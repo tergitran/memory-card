@@ -1,0 +1,24 @@
+.Card {
+    width: 250px;
+    height: 300px;
+    box-shadow: 1px 10px 10px rgb(179, 145, 145);
+    margin: 20px;
+    transition: all 0.2s; /* Animation */
+    cursor: pointer;
+    padding: 5px;
+}
+
+.Card:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    background-color: gray;
+}
+
+.Card:active {
+    transform: scale((1));
+    box-shadow: 1px 10px 10px rgb(204, 18, 18);
+}
+
+.Image {
+    width: 200px;
+    height: 250px;
+}
