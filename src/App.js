@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Cards from './components/Cards/Cards';
 
@@ -13,3 +13,5 @@ function App() {
 }
 
 export default App;
+
+

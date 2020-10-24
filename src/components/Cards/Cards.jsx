@@ -1,5 +1,4 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
 import Card from './Card/Card';
 import styles from './Cards.module.css';
 import AppBar from './AppBar/AppBar';
@@ -13,7 +12,7 @@ import AppBar from './AppBar/AppBar';
 
 
 function checkNoDoubleCards(cardsList, id) {
-    if (cardsList.indexOf(id) != -1)
+    if (cardsList.indexOf(id) !== -1)
         return false;
     return true;
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './Card.module.css';
 
 const Card = props => {
@@ -9,7 +8,7 @@ const Card = props => {
         <div
             className={styles.Card}
             onClick={() => clicked(id)} >
-            <img className={styles.Image} src={url} />
+            <img className={styles.Image} src={process.env.PUBLIC_URL + url} />
             <h3>{breed}</h3>
         </div>
     );
